@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "companies": {
+      "title": "Companies",
+      "description": "B2B Accounts and Companies with CRM data",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "initials": { "type": "string" },
+        "industry": { "type": "string" },
+        "buyingStage": { "type": "string" },
+        "sentiment": { "type": "string" },
+        "status": { "type": "string" },
+        "intentScore": { "type": "number" },
+        "employeeCount": { "type": "string" },
+        "revenue": { "type": "string" },
+        "location": { "type": "string" },
+        "website": { "type": "string" },
+        "description": { "type": "string" },
+        "intentSignal": { "type": "string" },
+        "tier": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "people": { "type": "array" },
+        "technology": { "type": "array text" },
+        "notes": { "type": "array" }
+      },
+      "required": ["id", "name"]
+    }
+  }
+}

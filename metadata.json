@@ -1,0 +1,6 @@
+{
+  "name": "SalesHub - Enterprise Outreach Platform",
+  "description": "Enterprise-grade cold email outreach, AI sequence builder, lead finder, warmup health monitoring, unified inbox (Unibox), and CRM platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
